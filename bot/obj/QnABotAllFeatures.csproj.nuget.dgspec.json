@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/martinsaternus/Downloads/westus-bot-ruk-plast-src/bot/QnABotAllFeatures.csproj": {}
+  },
+  "projects": {
+    "/Users/martinsaternus/Downloads/westus-bot-ruk-plast-src/bot/QnABotAllFeatures.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martinsaternus/Downloads/westus-bot-ruk-plast-src/bot/QnABotAllFeatures.csproj",
+        "projectName": "QnABotAllFeatures",
+        "projectPath": "/Users/martinsaternus/Downloads/westus-bot-ruk-plast-src/bot/QnABotAllFeatures.csproj",
+        "packagesPath": "/Users/martinsaternus/.nuget/packages/",
+        "outputPath": "/Users/martinsaternus/Downloads/westus-bot-ruk-plast-src/bot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martinsaternus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/martinsaternus/Downloads/westus-bot-ruk-plast-src/sdk/Microsoft.Bot.Builder.AI.QnA/Microsoft.Bot.Builder.AI.QnA.csproj": {
+                "projectPath": "/Users/martinsaternus/Downloads/westus-bot-ruk-plast-src/sdk/Microsoft.Bot.Builder.AI.QnA/Microsoft.Bot.Builder.AI.QnA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Bot.Builder.Dialogs": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
